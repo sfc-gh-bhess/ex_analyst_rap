@@ -71,7 +71,7 @@ in the `AnalystRAP_Roles.ipynb` Notebook file.
 ### Step 2: Setup the App
 1. Run the Streamlit to use the role-per-tenant approach:
    ```bash
-   streamlit run app_roles.py
+   pipenv run streamlit run app_roles.py
    ```
 
 There are 5 users in this app:
@@ -120,7 +120,7 @@ in the `AnalystRAP_Variable.ipynb` Notebook file.
 ### Step 2: Setup the App
 1. Run the Streamlit to use the session variable:
    ```bash
-   streamlit run app_vars.py
+   pipenv run streamlit run app_vars.py
    ```
 
 There are 5 users in this app:

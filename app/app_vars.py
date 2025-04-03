@@ -27,6 +27,7 @@ API_TIMEOUT = 50000  # in milliseconds
 
 # Initialize a Snowpark session for executing queries
 session = st.connection("snowflake", type="snowflake").session()
+app_name = "app_vars.py"
 
 # Handle User Login
 def do_login():
@@ -59,6 +60,8 @@ def login():
 def set_tenant_context():
     role = st.session_state.user["role"]
     session.sql(f"SET TENANT = '{role}'").collect()
+    query_tag = json.dumps({"application": app_name, "tenant": st.session_state.user["tenant"]})
+    session.query_tag = query_tag
 
 # JWT needed for Cortex Analyst API calls
 @st.cache_resource
