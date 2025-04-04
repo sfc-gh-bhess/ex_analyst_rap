@@ -17,7 +17,7 @@ This will set up the necessary data and semantic model file,
 as well as other Snowflake objects.
 
 ## Set up the Application environment
-This repo comes with two Streamlits app to show how an application can
+This repo comes with two Streamlit apps to show how an application can
 control which tenant's data to access, `app_roles.py` for the role-per-tenant
 approach and `app_vars.py` for the session variable approach. 
 This is basically the same example Streamlit app from the Quickstart, 
