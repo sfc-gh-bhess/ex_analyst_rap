@@ -59,12 +59,12 @@ a role per tenant. The Row Access Policy will use the
 
 ### Step 1: Setup Snowflake
 All the steps needed to set up the Snowflake objects are
-in the `AnalystRAP_Roles.ipynb` Notebook file.
+in the `Analyst_RAP_Roles.ipynb` Notebook file.
 
 1. From the Notebooks tab in Snowsight, click the down arrow
    next to the `+ Notebook` button in the upper right, and choose
    `Import .ipynb file`. 
-2. Choose the `AnalystRAP_Roles.ipynb` file in this folder
+2. Choose the `Analyst_RAP_Roles.ipynb` file in this folder
 3. Run through the cells in the file to create the roles, row
   access policy, etc.
 
@@ -108,12 +108,12 @@ tenant roles as the values we will set in the `TENANT` variable.
 
 ### Step 1: Setup Snowflake
 All the steps needed to set up the Snowflake objects are
-in the `AnalystRAP_Variable.ipynb` Notebook file.
+in the `Analyst_RAP_Variable.ipynb` Notebook file.
 
 1. From the Notebooks tab in Snowsight, click the down arrow
    next to the `+ Notebook` button in the upper right, and choose
    `Import .ipynb file`. 
-2. Choose the `AnalystRAP_Variable.ipynb` file in this folder
+2. Choose the `Analyst_RAP_Variable.ipynb` file in this folder
 3. Run through the cells in the file to create the roles, row
   access policy, etc.
 
